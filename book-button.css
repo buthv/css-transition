@@ -39,13 +39,29 @@ body{
   background-position: 20px center;
 }
 
-.book_button p {
-  position: relative;
-  color: pink;
-  top: 100px;
+button{
+  border: none;
+  background-image: url(bookmark.svg);
+  background-repeat: no-repeat;
+  border-radius: 120px;
+  background-size: 100px;
+  background-position: center;
+  
+  background-color: none;
 }
 
-.book_button p:hover{
-  top: -100px;
+button:hover{
+  padding-right: 150px;
+  background-position: left 50px center;
+  transition:  background-position 0.5s ease-out 0.1s;
+}
+
+p{
+  opacity: 0;
+  padding: 100px;
+}
+
+p:hover{
   opacity: 1;
+  
 }

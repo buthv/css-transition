@@ -6,7 +6,7 @@ body{
   text-align: center;
 }
 
-.book_button{
+.book{
   height: 80px;
   width: 80px;
   background-color: black;
@@ -29,7 +29,7 @@ body{
   color: white;
 }
 
-.book_button:hover{
+.book:hover{
   transition: background-position 0.1s ease-out 0.3s,
               padding 0.5s ease-out 0.3s;
   
@@ -37,4 +37,15 @@ body{
   padding-right: 120px;
   
   background-position: 20px center;
+}
+
+.book_button p {
+  position: relative;
+  color: pink;
+  top: 100px;
+}
+
+.book_button p:hover{
+  top: -100px;
+  opacity: 1;
 }

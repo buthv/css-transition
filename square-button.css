@@ -4,9 +4,19 @@
 
 body{
   text-align: center;
+  margin: 0 auto;
 }
 
 .square_button{
-  font-size: 2em;
+  display: inline-block;
+  font-size: 60px;
   text-decoration: none;
+  
+  padding: 60px;
+  background-color: antiquewhite;
+ 
+}
+
+.square_button:hover{
+
 }

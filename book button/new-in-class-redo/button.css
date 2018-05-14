@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  /* make sure the height of the body is at least as high as the browser window */
+  min-height: 100vh;
+  
+  /* center the flex item */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_container{
+  background: black;
+  color: white;
+  font-size: 25px;
+  
+  padding: 30px;
+  border-radius: 60px;
+  
+  box-shadow: 0 5px 5px grey;
+  
+  transition: box-shadow .3s;
+}
+
+.main_container:hover{
+  box-shadow: 0 15px 20px grey;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  
+  line-height: 30px;
+  text-align: center;
+}
+
+.text{
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+.main_container div{
+  display: inline-block;
+  
+}
